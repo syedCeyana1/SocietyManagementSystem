@@ -1,0 +1,90 @@
+/* notices.css */
+
+/* Styling the Notices Heading */
+h2.my-5 {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: #007bff;
+  }
+
+
+.notice-heading{
+    font-size: 26px;
+    padding: 10px 20px;
+    color: #15021b;
+  }
+  
+ /* Styling the Notice Cards */
+.notice-card {
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    border: ridge;
+    border-radius: 8px;
+    /*background-color: #edf4f5;
+    background: linear-gradient(110deg, #076585 60%,#fff 60%);*/
+    background: linear-gradient(to right, #bdc3c7,#2c3e50);
+
+    box-shadow: 0 8px 16px rgba(2, 0, 10, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 1000px;
+    height: 400px;
+  }
+  
+  /* Styling the Notice Content */
+  .notice-content {
+    font-size: 20px;
+    padding: 20px 40px 20px 60px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    color: black;
+    align-items: center; /* Center content horizontally */
+  }
+  
+  /* Styling the Card Title */
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  /* Styling the Notice Content */
+  .card-text {
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    color: #333333;
+  }
+  
+  /* Styling the Date Issued */
+  .card-footer {
+    background-color: #f0f0f0;
+    color: #999999;
+    font-style: italic;
+  }
+  
+  /* Remove the default Bootstrap button styling */
+  .btn {
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  /* Add a black shadow behind the cards */
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(252, 250, 250, 0.2);
+  }
+
+  .blockquote-footer{
+    font-family:Georgia;
+    font-style: italic;
+  }
+  
